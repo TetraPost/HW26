@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<title>HW_26</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+		<link rel="manifest" href="favicons/site.webmanifest">
+		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="favicons/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="TetraPost">
+		<meta name="application-name" content="TetraPost">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-config" content="favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./style/main.css">
+		<!-- JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        
+    </head>
+<body>
+	<div class="wrapper">
+		<div class="maincontent">
+			<ul class="nav nav-tabs nav-pills nav-fill" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#number" role="tab">Number</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#words" role="tab">Words</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="number" role="tabpanel">
+				<!--  -->
+					<div class="content one">
+						<div class="input-group">
+							<input type="text" class="form-control oneInput">
+							<div class="input-group-append">
+								<button class="btn btn-info" type="button">Number</button>
+							</div>
+						</div>
+					</div>
+					<div class="content two">
+						<div class="resultOne" value=""></div>
+					</div>
+				</div>
+				<!--  -->
+				<div class="tab-pane" id="words" role="tabpanel">
+					<!--  -->
+					<div class="content one">
+							<div class="input-group">
+								<input type="text" class="form-control twoInput">
+								<div class="input-group-append">
+									<button class="btn btn-warning" type="button">Words</button>
+								</div>
+							</div>
+						</div>
+						<div class="content two">
+							<div class="resultTwo" value=""></div>
+						</div>
+					</div>
+					<!--  -->					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		/*
+		let btnStart = document.querySelector('.btn-info');
+		let btnStop = document.querySelector('.btn-danger');
+		let btnErase = document.querySelector('.btn-warning');
+		let result = document.querySelector('.result');
+		
+		let timeout;
+		
+		function resultAnswer(){
+			result.innerText = 'Some Content';
+			btnErase.classList.remove('disabled');
+		}
+
+		function startTimer(){
+			timeout = setTimeout(resultAnswer,5000);
+			console.log('start startTimer');
+		}
+
+		function stopTimer(){
+			clearTimeout(timeout);
+			//btnStart.removeEventListener('click',startTimer);
+			console.log('remove startTimer');
+		}
+
+		function eraseContent(){
+			result.innerText = '';
+			btnErase.classList.add('disabled');
+			console.log('erase content');
+		}
+
+		btnStart.addEventListener('click', startTimer);
+		btnStop.addEventListener('click', stopTimer);
+		btnErase.addEventListener('click', eraseContent);
+		*/
+	</script>
+	<script src="js/script.js"></script>
+</body>
+</html>
