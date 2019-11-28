@@ -30,6 +30,16 @@ function iterarion() {
     resultOne.innerHTML = buildDiv;
 }
 btnNumber.addEventListener('click', iterarion);
+/*let inputValue = document.querySelector('.oneInput');
+btnNumber.onclick = () => {
+    let value = +inputValue.value;
+    console.log(value+2);
+    switch (value) {
+        case 10:
+        console.log('no');
+        break;
+    }
+}*/
 /**********************************************/
 let resultTwo = document.querySelector('.resultTwo');
 let btnWords = document.querySelector('.btn-warning');
